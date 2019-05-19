@@ -1,0 +1,11 @@
+
+ng g c auth
+ng g c challenges/challenge-tab
+
+Nativescript 
+Navigation section 7 number 75
+
+tns run android
+tns run android --bundle
+
+ng g c shared/ui/action-bar

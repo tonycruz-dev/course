@@ -4,6 +4,12 @@ import { NativeScriptUISideDrawerModule } from "nativescript-ui-sidedrawer/angul
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
+import { AuthComponent } from "./auth/auth.component";
+import { ChallengeTabComponent } from "./challenges/challenge-tab/challenge-tab.component";
+import { ChallengeEditComponent } from "./challenges/challenge-edit/challenge-edit.component";
+import { CurrentChallengeComponent } from "./challenges/current-challenge/current-challenge.component";
+import { TodayComponent } from "./challenges/today/today.component";
+import { ActionBarComponent } from "./shared/ui/action-bar/action-bar.component";
 
 @NgModule({
     bootstrap: [
@@ -15,7 +21,13 @@ import { AppComponent } from "./app.component";
         NativeScriptUISideDrawerModule
     ],
     declarations: [
-        AppComponent
+        AppComponent,
+        AuthComponent,
+        ChallengeTabComponent,
+        ChallengeEditComponent,
+        CurrentChallengeComponent,
+        TodayComponent,
+        ActionBarComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA
